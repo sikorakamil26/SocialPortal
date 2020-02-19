@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SocialPortal:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SocialPortal_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SocialPortal/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SocialPortal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+          <element id="library" level="project" name="spring-beans-5.0.8.RELEASE" />
+          <element id="library" level="project" name="spring-core-5.0.8.RELEASE" />
+          <element id="library" level="project" name="spring-jcl-5.0.8.RELEASE" />
+          <element id="library" level="project" name="spring-jdbc-5.0.8.RELEASE" />
+          <element id="library" level="project" name="spring-tx-5.0.8.RELEASE" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.5" />
+          <element id="library" level="module" name="JUnit4" module-name="SocialPortal" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
